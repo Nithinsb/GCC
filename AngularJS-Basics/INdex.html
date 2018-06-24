@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>First AngularJS accp</title>
+    <script src="/Scripts/angular.js"></script>
+    <script src="/Scripts/OhmDome.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+</head>
+<body ng-app="myNgApp">
+    <div ng-controller="myController" ng-init="load()" style="height:auto;width:700px;">
+
+        <object data="Images/resistor.svg" type="image/svg+xml"
+                id="Ohm-alphasvg" style="width: auto; height: 500px; cursor: pointer;"></object>
+
+
+
+
+
+        <!--<div id="Ohm-colorPalette" ng-model="SelectedColor">-->
+        <div id="Ohm-Color-Palette" style="visibility: hidden; cursor: pointer; position: absolute; top: 50px;transition-duration:800ms; ">
+            <div ng-repeat="Color in Palette" id="{{Color}}" ng-click="SetColor($event)" style="float: left; ">
+                <svg width="60" height="100">
+                    <rect x="5" y="0" rx="5" ry="5" width="50" height="100"
+                          style="stroke:white;stroke-width:5;opacity:1" fill="{{Color}}" />
+                </svg>
+            </div>
+        </div>
+        <!--</div>-->
+    </div>
+</body>
+</html>

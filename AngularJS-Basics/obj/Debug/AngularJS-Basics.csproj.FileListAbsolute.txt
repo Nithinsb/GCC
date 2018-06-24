@@ -1,0 +1,6 @@
+H:\Work\Handson Learning\Basics\AngularJS-Basics\AngularJS-Basics\bin\AngularJS-Basics.dll.config
+H:\Work\Handson Learning\Basics\AngularJS-Basics\AngularJS-Basics\bin\AngularJS-Basics.dll
+H:\Work\Handson Learning\Basics\AngularJS-Basics\AngularJS-Basics\bin\AngularJS-Basics.pdb
+H:\Work\Handson Learning\Basics\AngularJS-Basics\AngularJS-Basics\obj\Debug\AngularJS-Basics.csprojResolveAssemblyReference.cache
+H:\Work\Handson Learning\Basics\AngularJS-Basics\AngularJS-Basics\obj\Debug\AngularJS-Basics.dll
+H:\Work\Handson Learning\Basics\AngularJS-Basics\AngularJS-Basics\obj\Debug\AngularJS-Basics.pdb
